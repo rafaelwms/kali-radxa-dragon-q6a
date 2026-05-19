@@ -8,9 +8,15 @@ This is a customized Kali Linux image optimized for the Radxa Dragon Q6A single-
 ### EN
 ## 🚀 How to Install
 
-1. Download the file `kali-radxa-dragon-q6a-autoexpand.img.xz` from the **Releases** section of this repository.
-2. Flash the image to your SSD using your preferred tool (e.g., `dd`, BalenaEtcher, or Raspberry Pi Imager).
-3. Connect the SSD to your Radxa Dragon Q6A and power on the device.
+1. Download all split files (`.00`, `.01`) and the `SHA256SUMS` file from the **Releases** section.
+2. Verify the file integrity by running:
+   ```bash
+   sha256sum -c SHA256SUMS
+3. Join the split files back into a single compressed image:
+   ```bash
+   cat kali-radxa-dragon-q6a.img.xz.* > kali-radxa-dragon-q6a.img.xz
+4. Flash the image to your SSD using your preferred tool (e.g., `dd`, BalenaEtcher, or Raspberry Pi Imager).
+5. Connect the SSD to your Radxa Dragon Q6A and power on the device.
 
 ## 💾 Expanding Disk Space / Expandindo o Espaço do Disco
 To keep the download lightweight (only ~3GB), the default filesystem is constrained. On the first boot, the partition layout will automatically scale to match your SSD size. However, to make Kali recognize the full capacity of your drive, open the terminal and execute the following command:
@@ -34,9 +40,15 @@ Esta é uma imagem customizada do Kali Linux otimizada para o computador de plac
 ### PT-BR
 ## 🚀 Como Instalar
 
-1. Baixe o arquivo `kali-radxa-dragon-q6a-autoexpand.img.xz` na seção de **Releases** deste repositório.
-2. Grave a imagem no seu SSD utilizando uma ferramenta de sua preferência (ex: `dd`, BalenaEtcher ou Raspberry Pi Imager).
-3. Conecte o SSD no seu Radxa Dragon Q6A e ligue a placa.
+1. Baixe todas as partes divididas (`.00`, `.01`) e o arquivo `SHA256SUMS` na seção de Releases.
+2. Verifique a integridade dos arquivos executando:
+   ```bash
+   sha256sum -c SHA256SUMS
+3. Junte as partes de volta em uma única imagem compactada:
+   ```bash
+   cat kali-radxa-dragon-q6a.img.xz.* > kali-radxa-dragon-q6a.img.xz
+4. Grave a imagem no seu SSD utilizando uma ferramenta de sua preferência (ex: `dd`, BalenaEtcher ou Raspberry Pi Imager).
+5. Conecte o SSD no seu Radxa Dragon Q6A e ligue a placa.
 
 ## 💾 Expandindo o Espaço do Disco
 
