@@ -17,6 +17,7 @@ This is a customized Kali Linux image optimized for the Radxa Dragon Q6A single-
    cat kali-radxa-dragon-q6a.img.xz.* > kali-radxa-dragon-q6a.img.xz
 4. Flash the image to your SSD using your preferred tool (e.g., `dd`, BalenaEtcher, or Raspberry Pi Imager).
 5. Connect the SSD to your Radxa Dragon Q6A and power on the device.
+6. User / Password: `kali` or `radxa`
 
 ## 💾 Expanding Disk Space / Expandindo o Espaço do Disco
 To keep the download lightweight (only ~3GB), the default filesystem is constrained. On the first boot, the partition layout will automatically scale to match your SSD size. However, to make Kali recognize the full capacity of your drive, open the terminal and execute the following command:
@@ -49,6 +50,7 @@ Esta é uma imagem customizada do Kali Linux otimizada para o computador de plac
    cat kali-radxa-dragon-q6a.img.xz.* > kali-radxa-dragon-q6a.img.xz
 4. Grave a imagem no seu SSD utilizando uma ferramenta de sua preferência (ex: `dd`, BalenaEtcher ou Raspberry Pi Imager).
 5. Conecte o SSD no seu Radxa Dragon Q6A e ligue a placa.
+6. Usuário / Senha: `kali` ou `radxa`.
 
 ## 💾 Expandindo o Espaço do Disco
 
