@@ -1,5 +1,7 @@
 # Kali Linux for Radxa Dragon Q6A (Ready to Use)
 
+<img width="2704" height="1696" alt="image" src="https://github.com/user-attachments/assets/c9c56159-81da-4ba7-a57a-778d95b44c98" />
+
 [English]
 This is a customized Kali Linux image optimized for the Radxa Dragon Q6A single-board computer. The image has been surgically shrunk to provide a fast download and minimize storage requirements before installation.
 
